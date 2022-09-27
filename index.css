@@ -1,0 +1,95 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  
+}
+
+header img{
+   padding: 0px 20px;
+    
+}
+header {
+    border-bottom: 1.5px solid #C6C6C6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.app-name {
+    width: 200px;
+}
+.main {
+    width: 800px;
+
+}
+
+#refresh-icon {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 250px auto 0 auto;;
+    cursor: pointer;
+    
+}
+.post {
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+    
+}
+
+.post-heading {
+    
+    display: flex;
+    margin: 0 auto 5px auto;
+    
+
+}
+.users-profile {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 10px 5px 0px 20px;
+}
+.user-name {
+    margin: 15px 20px 0 10px;
+    font-size: 16px;
+}
+.user-location {
+    font-size: 14px;
+    margin: 0px 20px 0 10px;
+}
+.uploaded-img {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+}
+.post-icons {
+    width: 30px;
+    height: 30px;
+    padding: 5px 0 5px 8px;
+}
+.post-icons:hover {
+    width: 35px;
+    height: 35px;
+}
+.post-likes {
+    font-size: 20px;
+    padding: 0px 0 0 8px; 
+    margin: 0;
+}
+.caption {
+    font-size: 18px;
+    padding: 0px 0 0 8px; 
+    margin: 5px 0 10px 0;
+
+}
+.caption-span {
+    
+    font-weight: 700;
+}
